@@ -1,6 +1,9 @@
 class Post
   
-  attr_accessor
+  attr_accessor :name
   @@all = []
   
+  def initialize(name)
+    @name = name
+  end
 end
