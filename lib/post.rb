@@ -16,4 +16,8 @@ class Post
     self.author = author
     author.post << self
   end
+  
+  def author_name
+    
+  end
 end
